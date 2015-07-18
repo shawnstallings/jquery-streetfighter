@@ -5,18 +5,26 @@
 	<title>jquery-streetfighter</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="main">
 		<div class="ryu">
 			<div class="hadouken"></div>
-			<div class="ryu-still"></div>
-			<div class="ryu-ready"></div>
-			<div class="ryu-throwing"></div>
+			<div class="ryu-still ryu-action"></div>
+			<div class="ryu-ready ryu-action"></div>
+			<div class="ryu-throwing ryu-action"></div>
+			<div class="ryu-cool ryu-action"></div>
+		</div>
+		<div class="text-click">
+			<p>Click on RYU to make him throw a hadouken.</p>
+		</div>
+		<div class="text-xkey">
+			<p>Press and hold the "X" key to make him strike his cool pose!</p>
 		</div>
 	</div>
 	<audio id="hadouken-sound" src="sound/hadouken.mp3"></audio>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
